@@ -8,5 +8,6 @@ public class Launcher{
             msg = scanner.nextLine();
             System.out.println("Unknown command");
         }
+        scanner.close();
     }
 }
